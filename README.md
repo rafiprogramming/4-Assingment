@@ -28,7 +28,13 @@
 2.return- NodeList, All matching elements
 3.Performance-Slightly slower
 4.Use it--when we selecting multiple elements with CSS selectors
+
 ### 2. How do you create and insert a new element into the DOM?
+Create the element
+
+Add content / attributes
+
+Insert it into the DOM
 
 ### 3. What is Event Bubbling? And how does it work?
 
@@ -49,5 +55,15 @@ Event Delegation in JavaScript :--Event Delegation is a technique in JavaScript 
 
 	useful------
 1/Better Performance,  2/Works for Dynamically Added Elements,  3/Cleaner and Shorter Code
+Create the element
 
+Add content / attributes
+
+Insert it into the DOM
 ### 5. What is the difference between preventDefault() and stopPropagation() methods?
+
+Stops default browser action?	✅ Yes	❌ No
+
+Stops event bubbling?	❌ No	✅ Yes
+
+Common use case	Forms, links	Nested elements
